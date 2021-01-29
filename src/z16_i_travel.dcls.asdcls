@@ -1,0 +1,11 @@
+@EndUserText.label: 'übung 6: access control'
+@MappingRole: true
+define role Z16_I_TRAVEL {
+    grant 
+        select
+            on
+                Z16_I_Travel
+                    where
+                        (TravelAgency) = aspect pfcg_auth(s_agency, agencynum, ACTVT = '03');
+                        
+}

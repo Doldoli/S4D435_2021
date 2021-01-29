@@ -1,0 +1,11 @@
+@EndUserText.label: 'übung 6: access control'
+@MappingRole: true
+define role Z16_C_TRAVELTP {
+    grant
+        select
+            on
+                Z16_C_TravelTP
+                    where
+                        inheriting conditions from entity Z16_I_TravelTP;
+                        
+}

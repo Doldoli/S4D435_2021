@@ -1,0 +1,15 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"Z16_I_TRAVELTP"
+],
+"ASSOCIATED":
+[
+"D435_I_CUSTOMER"
+],
+"BASE":
+[]
+}
+}
